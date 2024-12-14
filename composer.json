@@ -18,7 +18,8 @@
         }
     ],
     "require": {
-        "php": ">=8.2"
+        "php": ">=8.2",
+        "symfony/console": "^7.2"
     },
     "config": {
         "sort-packages": true
