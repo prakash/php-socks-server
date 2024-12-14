@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+use Symfony\Component\Console\Application;
+
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+$app = new Application();
+$app->run();
