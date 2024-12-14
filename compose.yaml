@@ -1,0 +1,11 @@
+services:
+    app:
+        container_name: php-socks-server
+        build:
+            context: .
+        environment:
+            - SOCKS_USR
+            - SOCKS_PWD
+            - SOCKS_PORT
+        network_mode: "host"
+        restart: unless-stopped
