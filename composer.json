@@ -1,0 +1,31 @@
+{
+    "name": "prakash/php-socks-server",
+    "type": "project",
+    "description": "PHP SOCKS Server",
+    "keywords": [
+        "php socks server",
+        "socks proxy",
+        "proxy server",
+        "php socks"
+    ],
+    "homepage": "https://github.com/prakash/php-socks-server",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prakash Thapa",
+            "email": "thapa.me@gmail.com",
+            "homepage": "https://github.com/prakash"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Prakash\\SocksServer\\": "src/"
+        }
+    }
+}
