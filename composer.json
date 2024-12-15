@@ -33,5 +33,10 @@
         "psr-4": {
             "Prakash\\SocksServer\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Prakash\\SocksServer\\Tests\\": "tests/"
+        }
     }
 }
